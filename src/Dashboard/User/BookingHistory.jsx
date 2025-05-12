@@ -26,7 +26,7 @@ const BookingHistory = () => {
 
         fetchBookings();
     }, [userId]);
-    console.log(bookings);
+    console.log(bookings); 
 
     return (
         <div>
