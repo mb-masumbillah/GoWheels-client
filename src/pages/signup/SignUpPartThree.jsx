@@ -105,7 +105,7 @@ const SignUpPartThree = () => {
                         from: '/join/signUpThree',
                     }
                 });
-            }
+            }  
         }
         catch (error) {
             console.log(error)

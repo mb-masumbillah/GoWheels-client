@@ -129,7 +129,7 @@ const Navbar = () => {
                                 <div
                                     className={`absolute rounded-md bg-white transition-all  duration-[.35s] right-0 text-base text-secondary font-medium top-[60px] group-hover:scale-y-100 group-hover:translate-y-0 scale-y-0 -translate-y-[80px]`}>
                                     <ul className={`w-[210px] px-4 pt-4 pb-4`}>
-                                        {userInfo.userRole === "user" && <li className="hover:text-primary duration-200  px-4 py-2"><Link to={'/dashboard/user-profile'}>Profile</Link></li>}
+                                        {userInfo.userRole === "user" && <li className="hover:text-primary duration-200  px-4 py-2"><Link to={'/dashboard/profile'}>Profile</Link></li>}
                                         {userInfo.userRole === "agency" && <li className="hover:text-primary duration-200  px-4 py-2"><Link to={'/dashboard/agency/owner'}>Profile</Link></li>}
                                         {userInfo.userRole === "moderator" && <li className="hover:text-primary duration-200  px-4 py-2"><Link to={'/dashboard/moderator-profile'}>Profile</Link></li>}
                                         {userInfo.userRole === "user" && <li className="hover:text-primary duration-200  px-4 py-2"><Link to={'/dashboard/user-home'}>Dashboard</Link></li>}
